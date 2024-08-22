@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
+
+@font-face {
+  font-family: "Kimberly Paradise";
+  src: url(Kimberly\ Paradise.otf);
+}
+
+html {
+  user-select: none;
+}
+
+body {
+  background-color: #013e74;
+}
+
+.landing {
+  height: 100vh;
+  border: 1.2vw solid #ddc4b4;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.navbar-custom {
+  background-color: #11233596;
+  border-radius: 12px;
+  max-width: 60vw;
+  margin: 0 auto;
+  top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #ddc4b4;
+  padding: 10px 30px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #dda50a;
+}
+
+.navbar-custom .navbar-nav .nav-link:focus {
+  color: #ddc4b4;
+}
+
+.navbar-custom .navbar-nav .nav-item.active .nav-link {
+  color: #dda50a;
+  font-weight: bold;
+}
+
+.text-container {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin-left:10vw;
+  top: 11vw;
+  transform: scale(1.2);
+}
+
+@media (min-width: 10px) {
+  .text_1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+    color: #ddc4b4;
+    margin: 0 auto;
+    padding: 0;
+    top: 1.8vw;
+    left: 0.4vw;
+    position: relative;
+  }
+  .text_2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    color: #ddc4b4;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .text_3 {
+    font-size: 12vw;
+    font-family: "Kimberly Paradise";
+    -webkit-text-stroke: 0.4vw #e09005;
+    color: #e09005;
+    line-height: 0.645;
+    position: absolute;
+    bottom: -2.5vw; 
+    right: 0; 
+  }
+}
+
+@media (min-width: 992px) {
+  .text_1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.667vw;
+    color: #ddc4b4;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .text_2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 9.333vw;
+    color: #ddc4b4;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .text_3 {
+    font-size: 12vw;
+    font-family: "Kimberly Paradise";
+    -webkit-text-stroke: 6px #e09005;
+    color: #e09005;
+    line-height: 0.645;
+    position: absolute;
+    bottom: -2.5vw; 
+    right: 0; 
+  }
+}
+
+.carousel-custom {
+  height: 22vw;
+  width: 22vw;
+  border-radius: 20px;
+  position: absolute;
+  right: 9vw;
+  top: 9vw;
+}
+.carousel-custom .carousel-item img {
+  border-radius: 20px;
+}
