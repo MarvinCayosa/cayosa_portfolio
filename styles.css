@@ -6,6 +6,8 @@
   src: url(Kimberly\ Paradise.otf);
 }
 
+
+
 html {
   user-select: none;
 }
@@ -16,7 +18,7 @@ body {
 
 .landing {
   height: 100vh;
-  border: 1.2vw solid #ddc4b4;
+  border: 1.3vw solid #ddc4b4;
   background-color: transparent;
   overflow: hidden;
 }
@@ -47,9 +49,6 @@ body {
     color: #dda50a;
   }
 
-
-
-
 }
 
 
@@ -66,7 +65,7 @@ body {
 
 .navbar-custom .navbar-nav .nav-link {
   color: #ddc4b4;
-  padding: 10px 30px;
+  padding: 8px 40px;
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
@@ -82,6 +81,36 @@ body {
   font-weight: bold;
 }
 
+.navbar-custom .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #ddc4b4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.navbar-custom .navbar-nav .nav-item .dropdown-menu {
+  background-color: #11233596;
+  margin-top: 7px;
+
+}
+.navbar-custom .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #ddc4b4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: transparent;
+}
+
+.navbar-custom .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  color: #dda50a;
+  background-color: #112335; /* Background color on hover */
+}
+
+.navbar-custom .navbar-nav .nav-item .dropdown-menu .dropdown-item:focus {
+  color: #dda50a;
+  background-color: #112335; 
+}
 
 
 @media (min-width: 10px) {
@@ -132,9 +161,9 @@ body {
     position: relative;
     display: inline-block;
     padding: 0;
-    margin-left:10vw;
-    top: 11vw;
-    transform: scale(1.2);
+    margin-left:25vw;
+    top: 15vw;
+    transform: scale(1.68);
   }
   
   .text_1 {
