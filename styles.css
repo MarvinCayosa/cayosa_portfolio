@@ -46,14 +46,7 @@ body {
     background-color: #11233596;
   }
 
-  .right-box {
-    position: absolute;
-    height: 50vh;
-    width: 100vw; 
-    background-color: #d7c4b0;
-    bottom: 0;
-    margin: 0;
-  }
+ 
 
 }
 
@@ -67,7 +60,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 3vw;
+}
 
+.offcanvas-header .offcanvas-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3vw;
 }
 .offcanvas .nav-link:hover {
   color: #dda50a;
