@@ -58,7 +58,7 @@ body {
   color: #d7c4b0;
   padding: 8px 40px;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 3vw;
 }
@@ -68,6 +68,13 @@ body {
   font-weight: 900;
   font-style: normal;
   font-size: 3vw;
+}
+.offcanvas-header{
+  border-bottom: 1px solid #d7c4b0;
+}
+
+.offcanvas .nav-link {
+  padding-bottom: 3vw;
 }
 .offcanvas .nav-link:hover {
   color: #dda50a;
