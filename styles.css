@@ -95,17 +95,18 @@ body {
   border-radius: 12px;
   max-width: 60vw;
   margin: 0 auto;
-  top: 50px;
+  top: 3vw;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 1vw;
   z-index: 10;
   position: fixed;
 }
 
 .navbar-custom .navbar-nav .nav-link {
   color: #ddc4b4;
-  padding: 8px 40px;
+  padding: 5px 40px;
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
@@ -152,13 +153,12 @@ body {
   background-color: #112335e0; 
 }
 
-
-@media (min-width: 500px) {
+@media all and (min-width: 360px) {
   .text-container {
     position: relative;
-    top: 20%;
-    transform: scale(1.5);
-    left: 27vw;
+    top: 40%;
+    transform: scale(1.8);
+    left: 50%;
   }
   .text_1 {
     font-family: "Poppins", sans-serif;
@@ -179,67 +179,96 @@ body {
     padding: 0;
     margin: 0 auto;
   }
-  
   .text_3 {
-
-    bottom: -1vw; 
-    left: 17vw;
+    bottom: 9vw; 
+    left: 21vw;
     font-style: italic;
-    rotate: -4deg;
+    rotate: -3deg;
     z-index: 100;
     font-size: 13vw;
     font-family: "Kimberly Paradise";
     font-style: italic;
-    -webkit-text-stroke: 0.2vw #e09005;
+    -webkit-text-stroke: 0.3vw #e09005;
     color: #e09005;
     line-height: 0.645;
-    position: absolute;
+    position: relative;
     right: 0; 
   }
-
-  .mc {
-    position: absolute;
-    width: 100%;
-    right: -30vw; 
-    transform: scale(1); /* Adjust scaling as needed */
-    top: -20%; /* Adjust top positioning */
-
-  }
-
-  .text-container_2{
-    position: absolute;
-    display: inline-block;
-    width: 40vw;
-    left: 0vw;
-    top: 18vw;
-
-  }
   .text_4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3vw;
+    color: #d7c4b0;
+    position: relative;
+    text-align: left;
+    top: -5vw;
+    left: .5vw;
+  }
+
+  .text_5 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1vw;
     color: #d7c4b0;
-    top: 17vw;
-    left: 5vw;
-    position: relative;
-    text-align: left;
+    position: absolute;
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: normal; 
   }
-  .text_5{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 1vw;
-    color: #d7c4b0;
-    top: 9vw;
-    left: 5vw;
+  
+  .text-container-2 {
+    background-color: transparent;
     position: relative;
-    text-align: left;
+    width: 40vw;
+    top: -6vw;  
+    height: auto;
+    left: .5vw;
+  }
+  .contact_list {
+    position: absolute;
+    bottom: 12%;
+    margin-left: 30%;
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 100;
+    width: fit-content;
+    padding: 7px; 
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); 
+  }
+  
+  .contact_list li {
+    list-style: none;
+    display: block;
+  }
+  
+  .contact_list a {
+    display: block;
+    padding: 2px;
+    color: #d7c4b0;
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  .contact_list a svg {
+    fill: #d7c4b0;
+    width: 4vw;
+    height: 4vw;
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  .contact_list a:hover svg {
+    fill: #e09005;
   }
   
 }
 
-@media (min-width: 992px) {
+@media all and (min-width: 1024px) {
 
   .text-container {
     position: relative;
@@ -268,8 +297,8 @@ body {
   }
   
   .text_3 {
-    bottom: -.5vw; 
-    left: 19vw;
+    bottom: 8vw; 
+    left: 20vw;
     font-style: italic;
     rotate: -3deg;
     z-index: 100;
@@ -279,82 +308,92 @@ body {
     -webkit-text-stroke: 0.2vw #e09005;
     color: #e09005;
     line-height: 0.645;
-    position: absolute;
+    position: relative;
     right: 0; 
+  }
+
+  .text_4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.8vw;
+    color: #d7c4b0;
+    position: relative;
+    text-align: left;
+    top: -8vw;
+    left: .5vw;
+  }
+
+  .text_5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7vw;
+    color: #d7c4b0;
+    position: absolute;
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: normal; 
+
+    
+  }
+  
+  .text-container-2 {
+    background-color: transparent;
+    position: relative;
+    width: 27vw;
+    top: -7vw;  
+    height: auto;
+    left: .5vw;
   }
 
   .mc {
     position: relative;
     width: 65%;
     left: 78%;
-    top: 33%;
+    top: 30%;
     transform: translate(-50%, -50%);
     z-index: 0;
   }
 
-  .text-container_2{
-    position: relative;
-    display: inline-block;
-    width: 35vw;
-    left: 0vw;
-    top: 4vw;
+  .contact_list {
+    position: absolute;
+    bottom: 6vw;
+    margin-left: 4.5vw;
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 100;
+    width: fit-content;
+    padding: 7px; 
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); 
   }
-  .text_4{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1vw;
+  
+  .contact_list li {
+    list-style: none;
+    display: block;
+  }
+  
+  .contact_list a {
+    display: block;
+    padding: 2px;
     color: #d7c4b0;
-    top: 17vw;
-    left: 5vw;
-    position: relative;
-    text-align: left;
+    transition: fill 0.3s ease-in-out;
   }
-  .text_5{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 1vw;
-    color: #d7c4b0;
-    top: 8vw;
-    left: 5vw;
-    position: relative;
-    text-align: left;
+  
+  .contact_list a svg {
+    fill: #d7c4b0;
+    transition: fill 0.3s ease-in-out;
+    width: 2.3vw;
+    height:  2.3vw;
+  }
+  
+  .contact_list a:hover svg {
+    fill: #e09005;
   }
 }
 
-.contact_list {
-  position: absolute;
-  top: 40vw;
-  margin-left: 4.4vw;
-  transform: translateX(-50%); /* Center horizontally */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  z-index: 100;
-  width: fit-content;
-  padding: 7px; 
-  border-radius: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Add box shadow for depth */
-}
-
-.contact_list li {
-  list-style: none;
-  display: block;
-}
-
-.contact_list a {
-  display: block;
-  padding: 2px;
-  color: #d7c4b0;
-}
-
-.contact_list a svg {
-  fill: #d7c4b0;
-}
-
-.contact_list a:hover svg {
-  fill: #e09005;
-}
