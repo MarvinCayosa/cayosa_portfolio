@@ -417,7 +417,8 @@ html {
 
 .expertise_section{
   background-color: #112335;
-  height: 110vh;
+  padding-bottom: 300px; 
+  box-sizing: border-box;
   overflow: hidden;
 }
 
