@@ -417,7 +417,7 @@ html {
 
 .expertise_section{
   background-color: #112335;
-  height: 100vh;
+  height: 110vh;
   overflow: hidden;
 }
 
@@ -438,16 +438,15 @@ html {
   position: relative;
   top: 11vw;
   padding: 15px;
-  height: 28vw;
   width: fit-content;
 }
 
 .custom-card {
-  width: 27vw;
-  height: 20vw;
+  height: 23vw;
   border-radius: 5%;
   transition: all 0.3s ease-out;
   overflow: hidden;
+  margin-bottom: 16px;
 }
 
 .custom-card:hover{
@@ -499,8 +498,7 @@ html {
   font-size: 16px;
   color: #d7c4b0;
   position: relative;
-  top: 9vw;
-
+  top: 15vw;
   text-align: center;
   text-wrap: wrap;
   line-height:25px;
@@ -865,11 +863,12 @@ html {
 }
 
 
-.awards_section{
+.awards_section {
   background-color: #0e1f2c;
-  height: 130vh;
   justify-content: center;
   align-items: center;
+  padding-bottom: 150px; 
+  box-sizing: border-box;
 }
 
 .awards_header{
